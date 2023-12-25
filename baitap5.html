@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thêm mới nhân viên</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="full-name">Họ và tên:</label>
+        <input
+          type="text"
+          id="full-name"
+          name="full-name"
+          value="Nguyễn Văn Nam"
+        />
+      </div>
+      <div>
+        <label for="dob">Ngày sinh đầy đủ:</label>
+        <input type="text" id="dob" name="dob" value="07/12/2023" />
+      </div>
+      <div>
+        <label for="gender">Giới tính:</label>
+        <select id="gender" name="gender">
+          <option value="male">Nam</option>
+          <option value="female">Nữ</option>
+          <option value="other">Khác</option>
+        </select>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" value="nam@gmail.com" />
+      </div>
+      <div>
+        <label for="intro">Giới thiệu bản thân:</label>
+        <textarea id="intro" name="intro">Xin đẹp</textarea>
+      </div>
+      <div>
+        <label for="">Thành phố:</label>
+        <select id="" name="">
+          <option value="">TP.Hà Nội</option>
+          <option value="">TP.Hồ Chí Minh</option>
+          <option value="">TP.Đà Nẵng</option>
+        </select>
+      </div>
+      <div>
+        <label for="avatar">Hình ảnh:</label>
+        <input type="file" id="avatar" name="avatar" />
+      </div>
+      <div>
+        <label for="hobbies">Sở thích:</label><br />
+        <input type="checkbox" id="code" name="hobbies" value="coding" />
+        <label for="code">Code</label><br />
+        <input type="checkbox" id="game" name="hobbies" value="gaming" />
+        <label for="game">Chơi game</label><br />
+        <input type="checkbox" id="swim" name="hobbies" value="swimming" />
+        <label for="swim">Bơi lội</label><br />
+        <input type="checkbox" id="football" name="hobbies" value="football" />
+        <label for="football">Đá bóng</label><br />
+      </div>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
